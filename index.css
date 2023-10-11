@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.layout {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #3dbdeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    max-width: 400px;
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+.card-fir-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-fir-item .pro {
+    border: 2px solid rgb(237, 237, 20);
+    align-self: flex-start;
+    padding: .5em 1em;
+    border-radius: 10px;
+    color: rgb(237, 237, 20);
+}
+
+.card-fir-item .logo {
+    width: 120px;
+    height: 120px;
+}
+
+.card-fir-item .logo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    margin-top: -70px;
+    margin-left: -14px;
+}
+.card-fir-item .icon {
+    font-size: 2rem;
+    color: #ddd;
+}
+
+.card-content {
+    text-align: center;
+    margin-top: -40px;
+    padding: 0 1em;
+    color: #ddd;
+}
+.card-content h2 {
+    color: black;
+    padding-bottom: 5px;
+}
+.card-content p {
+    padding: 1em 0;
+}
+.card-content .card-cont-icon span{
+    padding: 0 .2em;
+    font-size: 1.5rem;
+}
+
+.card-followers {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2em;
+    color: #ddd;
+    margin-top: 1em;
+    font-size: 1.5rem;
+}
+.card-followers div {
+    text-align: center;
+}
+.card-followers div .num {
+    color: #3dbdeb;
+}
+
+.card-btn {
+    text-align: center;
+    margin-top: 2em;
+}
+.card-btn button{
+    padding: 1.5em 1.7em;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #3dbdeb;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
